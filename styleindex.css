@@ -1,0 +1,74 @@
+head {
+	font-family:'Script',Verdana;
+	font-size:30%;
+}
+
+
+body {
+	font-family: 'Metrophobic', Arial, sans-serif; 
+	margin: 70px;
+	background-image: 
+	url(https://raw.githubusercontent.com/iskornev/workshop04/gh-pages/background.png);  	
+	background-size: 950px
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+
+
+h1 {
+	text-align: center;
+}
+
+div.class {
+	font-size: 0;
+	margin: 275px 0;
+}
+
+div.class a {
+	text-decoration: none;
+<<<<<<< HEAD
+	margin-bottom: 10px; 
+=======
+	margin-bottom: 10px;
+>>>>>>> origin/gh-pages
+	padding: 10px;
+	color: rgb(255,255,255);
+	display: inline-block;
+	vertical-align: top;
+	width: 33.333%;
+	height: 200px;
+	background: crimson;
+	font-size: 35px;
+}
+
+div.levels a:hover {
+	background: yellow;
+}
+
+a.level1:hover {
+	font-family: "Georgia";
+}
+
+a.level2:hover {
+	font-family: "Georgia";
+}
+
+a.level3:hover,
+a.world:hover {
+	font-family: "Georgia";
+}
+
+a.level4:hover,
+a.chinchilla:hover {
+	font-family: "Georgia";
+}
+
+a.level5:hover,
+a.control:hover {
+	font-family: "Georgia";
+}
+
