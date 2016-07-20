@@ -1,70 +1,186 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
+
+   <title>Variation 25</title>
+   <meta charset="UTF-8">
+  <link rel="stylesheet" href="navigation.css">
 <style>
-   div {
-      font-family:"Arial Black" sans-serif;
-   } 
-   div.ex1 {
-      padding: 25px 5px 50px 50px;
-
-   background-color:#103e50;
-      opacity: 0.7;
-      margin-right: 400px; 
-      margin-bottom: 10px;
-      font-size: 40px;
-      position: relative;
-      left: 150px;
-      top:20%;
-
-   }
-div.ex2 {
-      padding: 25px 5px 50px
-      50px;
-      background-color:#457485;
-      margin:auto; 
-   }
-   div.ex3 {
-      padding: 25px 5px 50px
-      50px;
-      background-color: rgba(108,162,153,0,3) ;
-      margin:auto;}
-       
-</style>
-      <head>
-<title>Andrey's Summer Home</title></head>
-
-<body style="
-background-color: #246c60;
-opacity: 1;
-margin:5%; 
-">
-
-   <h1>
-   <div class=ex1><font color="white">Andrey's Summer Home</font><h1></div>
    
+.p1{
+   font-family: "Arial Black" sans-serif;
+   letter-spacing: 40px;
+   text-align: middle;
+   position: absolute;
+   text-align: middle;
+   left: 0;
+   top:25%
+   font-size:200px;
+   animation: pulse 4s
+}
+
+.p2 {
+   font-family: "Arial Black" sans-serif;
+   letter-spacing: 20px;
+   text-align: middle;
+   position: absolute;
+   left: 0;
+   top:25%
+   font-size:80px;
+   background-color: #d19494;
+   opacity: 0.7; 
+   z-index: 1;
+   animation: rubberBand 12s
+}
+
+.p3 
+{
+   margin-left: 10%;
+   font-family: "Arial Black" sans-serif;
+letter-spacing: 35px;
+text-align: right;
+position: absolute;
+top: 10%;
+left:2px;
+font-size: 20px;
+animation: pulse 7s
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+
  
-   <img src="https://github.com/iskornev/interactive/blob/gh-pages/Pokemongo.JPG?raw=true" alt="Andrey's pokemon" width="50%">  
+}
+
+</style>
+
+<title>Romance</title>  
+</head>
+
+<body>
+<body style="
+    background-color: #e8c9c9;
+    opacity: 0.8;
+    margin: 5%;
+    z-index: 2
+">
+<div class="contaigner">
+<p class="p1">Romance</p>  
 
 
 
-   <p> <small><font color="white"> Everything you can imagine is real. - Pablo Picasso</font></small></p>
-   <br>
+<p class="p2">Romance, to nod and sing<br>
+With drowsy head and folded wing<br>
+Among the green leaves as they shake<br>
+Far down within some shadowy lake,<br>
+To me a painted paroquet<br>
+Hath been-most familiar bird-<br>
+Taught me my alhabet to say,<br>
+To lisp my very earliest <strong>Lworld</strong><br>
+While in the wild wood I did lie,<br>
+A child—with a most knowing <sub>eye.</sub><br></p>
 
-   <p><h2><font color="white">Workshops:</font></h2></p>
-   <ol>
-   <div class=ex2>    
-   <a href="https://iskornev.github.io/interactive/throbber.html">Visit my Throbber page</a></br>
-   <a href="https://iskornev.github.io/Surgerytips">How to heal after plastic surgery?</a></br>
-   <a href="https://iskornev.github.io/workshop03">Style a WikiHow Page</a><br>
-   <a href="https://iskornev.github.io/workshop04">How-To Guide</a></div><br>
-   </ol>
-   
-   <h2><font color="white">Projects:</font></h2><p>
-   <ol>
-   <div class=ex2>
-<a href="https://iskornev.github.io/project01">25 variations</a></br></ol></div>
-   
+
+
+<p class ="p3">
+<strong>Of <sup><font color="#ff0000">late</font></sup>, eternal <sub>condor</sub> years<br>
+So <sup>shake </sup>the very Haven on high<br>
+With tumult as they </strong>thunder by,<br>
+I have no time for idle cares<br>
+Through gazing on the unquiet sky;<br>
+And when an hour with calmer wings<br>
+Its down upon my spirit flings,<br>
+Its down upon my spirit fling<br>
+To while away forbidden things—<br>
+My heart would feel to be a crime<br>
+Unless it trembled with the srings.<br>
+<font color="#ff0000">Of late, eternal condor years</font><br>
+So shake the very Haven on high<br>
+With tumult as they thunder by,<br>
+I have no time for idle cares<br>
+Through gazing on the unquiet sky;<br>
+And when an hour with calmer wings<br>
+Its down upon my spirit flings,<br>
+Its down upon my spirit fling<br>
+To while away forbidden things—<br>
+My heart would feel to be a crime<br>
+Unless it trembled with the srings.<br></p>
+
+<br>
+
+
+<div id="navigation_wrapper">
+&nbsp &nbsp Level 5/v.25<br></p>
+<a href="https://iskornev.github.io/project01">25 variations</a>
+<a href="https://iskornev.github.io/project01/24.html">back to v.24</a>
+<a href="https://iskornev.github.io/interactive/index.html">Home page</a></div>
+
 </body>
-
-</html>
